@@ -220,7 +220,6 @@
       #define DOGLCD_SCK                    PA5
       #define DOGLCD_MOSI                   PA7
 
-      #define FORCE_SOFT_SPI
       #define LCD_BACKLIGHT_PIN             -1
       #define NEOPIXEL_PIN           EXP1_02_PIN
     #else
@@ -266,7 +265,6 @@
       #define DOGLCD_SCK             EXP1_01_PIN
       #define DOGLCD_MOSI            EXP1_08_PIN
 
-      #define FORCE_SOFT_SPI
       #define LCD_BACKLIGHT_PIN             -1
 
     #elif IS_TFTGLCD_PANEL
@@ -352,7 +350,6 @@
       #define DOGLCD_SCK             EXP1_07_PIN
       #define DOGLCD_MOSI            EXP1_08_PIN
 
-      #define FORCE_SOFT_SPI
       #define LCD_BACKLIGHT_PIN             -1
 
     #else
